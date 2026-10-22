@@ -1,0 +1,57 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f4efe6; color: #333; }
+header { display: flex; gap: 16px; align-items: center; background: #5a3e2b; color: #fff; padding: 12px 20px; }
+header span { margin-left: auto; }
+nav { background: #8a6244; padding: 8px 20px; }
+nav button { margin-right: 6px; }
+main { padding: 20px; }
+button { background: #5a3e2b; color: #fff; border: 0; padding: 7px 12px; border-radius: 4px; cursor: pointer; }
+button:hover { background: #7a5640; }
+input, select { padding: 6px; margin: 4px 8px 4px 0; }
+label { display: inline-block; margin-right: 8px; font-size: 14px; }
+form { margin-bottom: 16px; }
+table { border-collapse: collapse; width: 100%; background: #fff; margin-top: 12px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background: #e8dcc8; }
+#telaLogin { display: flex; justify-content: center; margin-top: 12vh; }
+#formLogin { background: #fff; padding: 30px; border-radius: 8px; display: flex; flex-direction: column; width: 280px; }
+
+#telaLogin[hidden],
+#telaApp[hidden] {
+    display: none !important;
+}
+
+#telaLogin:not([hidden]) {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+#telaApp:not([hidden]) {
+    display: block;
+}
+
+[hidden] {
+    display: none !important;
+  }
+  
+  #formCadastro {
+    width: 100%;
+  }
+  
+  #formCadastro input,
+  #formCadastro button {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+  }
+  
+[hidden] {
+    display: none !important;
+  }
+  
+  #telaLogin button {
+    cursor: pointer;
+  }
+  
